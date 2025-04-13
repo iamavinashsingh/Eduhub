@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ContactUs-EduHUB</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    footer{
+      padding-top: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- =========================== NAVBAR START HERE ============================ -->
+  <header class="navbarSection">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="/pics/WebpLogo.webp" alt="logo" width="20%" height="auto" ">
+        </a>
+      </div>
+      <nav class=" navbar">
+          <ul>
+            <li class="navItem"><a class="navLink" href="index.html">Home</a></li>
+            <li class="navItem"><a class="navLink" href="about.html">About</a></li>
+            <li class="navItem"><a class="navLink" href="services.html">Services</a></li>
+            <li class="navItem"><a class="navLink" href="blog.html">Blog</a></li>
+            <li class="navItem"><a class="navLink" href="contactus.html">Contact</a></li>
+          </ul>
+          </nav>
+      </div>
+  </header>
+<!-- =========================== NAVBAR END HERE ============================ -->
+<!-- =========================== CONTACT FORM START HERE ============================ -->
+<section id="contactForm">
+  <div class="container">
+        <h2 class="commonHead">  Contact Us</h2>
+        <p class="commonSubHead">Get in touch with us.</p>
+  </div>
+  <div class="container grid grid2col">
+    <div class="contactContent">
+      <form action="#">
+        
+        <div class="grid grid2col mb3">
+          <div>
+            <label for="username">Enter Username:</label>
+            <input type="text" name="username" id="username" placeholder="ENTER HERE" autocomplete="off" required/>
+          </div>
+          <div>
+            <label for="email">Enter Your Email:</label>
+            <input type="email" name="mail" id="email" placeholder="Enter Your Email" required autocomplete="off"/>
+          </div>
+        </div>
+          
+        <div class="mb3">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Title" required autocomplete="off"/>
+        </div>
+        
+        <div class="mb3">
+            <label for="message">Message</label>
+            <textarea type="text" name="message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btnSub">Send Message</button>
+        </div>
+        
+      </form>
+    </div>
+    <div class="contactMap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228624.56107475833!2d80.17356833783873!3d26.44738660194303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1714221502745!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+</section> 
+<!-- =========================== CONTACT FORM END HERE ============================ -->
+
+<!-- =========================== FOOTER SECTION STARTHERE ============================ -->
+    <footer>
+       <div class="container grid grid4cols">
+         <div class="footer1">
+          <div class="logoBrand">
+             <a href="index.html" class="footerSubHead">EduHUB</a>
+             <p>Let's revolutionize the way you study with EduHub</p>
+          </div>
+          <div class="socialIcon">
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank">
+              <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://in.linkedin.com/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i></a>
+           </div>
+        </div>
+         <div class="footer2">
+            <a href="index.html" class="footer2SubHead">EduHUB</a>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#whychoose">Why US</a></li>
+              <li><a href="#contactHP">Contact Us</a></li>
+            </ul>
+          </div>
+        <div class="footer3">
+          <a href="#courses" class="footer2SubHead">Courses</a>
+          <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Front End</li>
+          </ul>
+        </div>
+         <div class="footer4">
+           <div class="footer2SubHead">Links</>
+           <ul>
+             <li><a href="https://www.instagram.com/" target="_blank">
+             Instagram</a></li>
+             <li><a href="https://in.linkedin.com/" target="_blank">
+              LinkedIN</a></li>
+             <li><a href="https://twitter.com/" target="_blank">
+              Twitter</a></li>
+
+           </ul>
+         </div>
+
+       </div>
+    </footer>
+    <!-- =========================== FOOTER SECTION ENDHERE ============================ -->
+  </body>
+</html>
